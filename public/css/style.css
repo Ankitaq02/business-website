@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poiret+One&family=Varela+Round&display=swap');
+
+*{
+    font-family: "Poiret One",cursive;
+    font-weight: bold;
+}
+
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+
+li,p,a{
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+.row{
+    margin: 0;
+}
+.navbar-style{
+    background-color:white ;
+    box-shadow: 2px 4px 13px 1px rgba(8,8,8,0.04);
+}
+
+#logo{
+    float:left;
+    display: initial;
+    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    margin-left: 15px ;
+    text-transform: capitalize;
+    color:rgb(243, 51, 51);
+    text-shadow: 2px 5px 3px rgba(0,0,0,0.06);
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:brown;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    margin-left: 50px;
+    padding-left: 1rem;
+    font-size: 1.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(185, 9, 112);
+}
+
+.hero-text h1{
+    font-size: 5.5rem;
+    line-height:1.5;
+    text-shadow: 5px 4px 11px rgba(0,0,0,0.06);
+    letter-spacing: 1px;
+    color: sienna;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero-text h1:nth-child(2){
+    font-weight: bold;
+    color: purple;
+}
+
+.hero-text p, .our-services p, label{
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    color: rosybrown;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.hero-text p span{
+    font-weight: bold;
+    color: rgb(46, 41, 41);
+}
+
+.btn-style{
+    padding: 12px 25px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    background: #ec615b;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0ms5s all;
+    -o-transition: 0ms5s all;
+    mstransition:0.5s all;
+    transition: 0.5s all;
+}
