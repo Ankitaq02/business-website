@@ -101,3 +101,79 @@ h3{
     mstransition:0.5s all;
     transition: 0.5s all;
 }
+
+.about-style{
+    margin: 10rem 0;
+}
+
+.about-style .main-heading 
+.service-style .main-heading
+.contact-style .main-heading{
+    font-size: 5rem;
+    color: #f14b45;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+}
+
+.service-style{
+    margin-bottom: 10rem;
+}
+
+.our-services{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 30px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,0.017);
+}
+
+.our-services .icons{
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.our-services h4{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.our-services:hover h4,.our-services:hover p{
+    color: #fff;
+}
+
+.speedup:hover{
+    box-shadow:0 0 25px 0 rgba(33,39,221,0.02) ;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #f33474 0%,#f55b2a);
+}
+.settings:hover{
+    box-shadow:0 0 25px 0 rgba(33,39,221,0.02) ;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34c6f3 0%,#271d1a);
+}
+.privacy:hover{
+    box-shadow:0 0 25px 0 rgba(33,39,221,0.02) ;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #881979 0%,#2aeef5);
+}
+.backups:hover{
+    box-shadow:0 0 25px 0 rgba(33,39,221,0.02) ;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #f33474 0%,#f55b2a);
+}
+.ssl:hover{
+    box-shadow:0 0 25px 0 rgba(33,39,221,0.02) ;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #f33474 0%,#f55b2a);
+}
+.database:hover{
+    box-shadow:0 0 25px 0 rgba(33,39,221,0.02) ;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #baf334 0%,#f52ac9);
+}
